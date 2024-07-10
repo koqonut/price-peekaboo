@@ -18,22 +18,20 @@ import { useState } from 'react';
 
 function FilterableProductTable({ products }) {
   const [filterText, setFilterText] = useState('');
-  const [inStockOnly, setInStockOnly] = useState(false);
+
 
   return (
     <div className="container mx-auto p-4">
       <h1 className="text-2xl font-bold mb-4">Search</h1>
       <SearchBarComponent
         filterText={filterText}
-        inStockOnly={inStockOnly}
         onFilterTextChange={setFilterText}
-        onInStockOnlyChange={setInStockOnly} />
+      />
 
       <div className="container mx-auto p-4">
         <ProductCategoriesComponent
           products={products}
-          filterText={filterText}
-          inStockOnly={inStockOnly} />
+          filterText={filterText} />
       </div >
     </div>
   );
