@@ -1,0 +1,91 @@
+{
+    "Canada": {
+        "provinces": {
+            "Alberta": [
+                "Calgary",
+                "Edmonton",
+                "Red Deer",
+                "Lethbridge",
+                "St. Albert"
+            ],
+            "British Columbia": [
+                "Vancouver",
+                "Victoria",
+                "Kelowna",
+                "Abbotsford",
+                "Kamloops"
+            ],
+            "Manitoba": [
+                "Winnipeg",
+                "Brandon",
+                "Steinbach",
+                "Portage la Prairie",
+                "Thompson"
+            ],
+            "New Brunswick": [
+                "Fredericton",
+                "Moncton",
+                "Saint John",
+                "Bathurst",
+                "Miramichi"
+            ],
+            "Newfoundland and Labrador": [
+                "St. John's",
+                "Mount Pearl",
+                "Corner Brook",
+                "Conception Bay South",
+                "Paradise"
+            ],
+            "Nova Scotia": [
+                "Halifax",
+                "Sydney",
+                "Dartmouth",
+                "Truro",
+                "New Glasgow"
+            ],
+            "Ontario": [
+                "Toronto",
+                "Ottawa",
+                "Mississauga",
+                "Brampton",
+                "Hamilton"
+            ],
+            "Prince Edward Island": [
+                "Charlottetown",
+                "Summerside",
+                "Stratford",
+                "Cornwall"
+            ],
+            "Quebec": [
+                "Montreal",
+                "Quebec City",
+                "Laval",
+                "Gatineau",
+                "Longueuil"
+            ],
+            "Saskatchewan": [
+                "Saskatoon",
+                "Regina",
+                "Prince Albert",
+                "Moose Jaw",
+                "Swift Current"
+            ]
+        }
+    },
+    "USA": {
+        "California": [
+            "Los Angeles",
+            "San Francisco",
+            "San Diego",
+            "Sacramento",
+            "San Jose"
+        ],
+        "New York": [
+            "New York City",
+            "Buffalo",
+            "Rochester",
+            "Albany",
+            "Syracuse"
+        ]
+    }
+}
