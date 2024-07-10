@@ -2,12 +2,13 @@
 import './App.css';
 import { PRODUCTS } from './data/dataset';
 
+
 /**
 FilterableProductTable
   SearchBar
-  ProductTable
-    ProductCategoryRow
-    ProductRow
+  ProductCategoryList
+    ProductTable
+      ProductRow
  */
 import { useState } from 'react';
 
@@ -22,44 +23,61 @@ function FilterableProductTable({ products }) {
         inStockOnly={inStockOnly}
         onFilterTextChange={setFilterText}
         onInStockOnlyChange={setInStockOnly} />
-      <ProductTable
+
+      <ProductCategories
         products={products}
         filterText={filterText}
         inStockOnly={inStockOnly} />
-    </div>
+    </div >
+
   );
 }
+
+function ProductCategories({ products, filterText, inStockOnly }) {
+  const rows = [];
+  const categoryToProductMap = new Map();
+
+  products.forEach((product) => {
+    if (!categoryToProductMap.get(product.category)) {
+      categoryToProductMap.set(product.category, new Map())
+    }
+    categoryToProductMap.get(product.category).set(product.name, product);
+  });
+
+
+  categoryToProductMap.forEach((productsMap, productCategory) => {
+    //console.log("KN_ Size of map", productCategory, productsMap.size);
+    const productCategoriesArray = Array.from(productsMap.values());
+
+    rows.push(
+      <ProductCategoryRow
+        category={productCategory}
+        key={productCategory} />
+    );
+    rows.push(<ProductTable products={productCategoriesArray} filterText={filterText} isStockOnly={inStockOnly} key={`${productCategory}-table`}></ProductTable>);
+    // console.log("KN_ ProductCategories Rows are ", rows);
+
+  });
+
+  return (
+    <>
+      {rows}
+    </>
+  );
+}
+
 
 function ProductCategoryRow({ category }) {
   return (
-    <tr>
-      <th colSpan="2">
-        {category}
-      </th>
-    </tr>
+    <h1>
+      {category}
+    </h1>
   );
 }
 
-function ProductRow({ product }) {
-  const name = product.stocked ? product.name :
-    <span style={{ color: 'red' }}>
-      {product.name}
-    </span>;
-
-  return (
-    <tr>
-      <td>{name}</td>
-      <td>{product.price}</td>
-      <td>{product.store}</td>
-      <td>{product.city}</td>
-      <td>{product.lastUpdatedDate}</td>
-    </tr>
-  );
-}
 
 function ProductTable({ products, filterText, inStockOnly }) {
   const rows = [];
-  let lastCategory = null;
 
   products.forEach((product) => {
     if (
@@ -72,22 +90,13 @@ function ProductTable({ products, filterText, inStockOnly }) {
     if (inStockOnly && !product.stocked) {
       return;
     }
-    if (product.category !== lastCategory) {
-      rows.push(
-        <ProductCategoryRow
-          category={product.category}
-          key={product.category} />
-      );
-    }
     rows.push(
-      <ProductRow
-        product={product}
-        key={product.name} />
+      <ProductRow product={product} key={product.name} />
     );
-    lastCategory = product.category;
   });
 
-  return (
+  var result = (
+
     <table>
       <thead>
         <tr>
@@ -95,20 +104,37 @@ function ProductTable({ products, filterText, inStockOnly }) {
           <th>Price</th>
           <th>Store</th>
           <th>City</th>
-          <th>LastUpdatedDate</th>
+          <th>lastUpdatedDate</th>
         </tr>
       </thead>
       <tbody>{rows}</tbody>
     </table>
+
   );
+  //console.log("KN_ Producttable result is ", result)
+  return result;
 }
 
-function SearchBar({
-  filterText,
-  inStockOnly,
-  onFilterTextChange,
-  onInStockOnlyChange
-}) {
+function ProductRow({ product }) {
+
+  const name = product.stocked ? product.name :
+    <span style={{ color: 'red' }}>
+      {product.name}
+    </span>;
+  var result = (
+    <tr>
+      <td>{name}</td>
+      <td>{product.price}</td>
+      <td>{product.store}</td>
+      <td>{product.city}</td>
+      <td>{product.lastUpdatedDate}</td>
+    </tr>
+  )
+  //console.log("KN_ ProductRow result is ", result)
+  return result;
+}
+
+function SearchBar({ filterText, inStockOnly, onFilterTextChange, onInStockOnlyChange }) {
   return (
     <form>
       <input
@@ -127,6 +153,8 @@ function SearchBar({
   );
 }
 
+
 export default function App() {
   return <FilterableProductTable products={PRODUCTS} />;
 }
+
