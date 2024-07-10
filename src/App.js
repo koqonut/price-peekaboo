@@ -1,6 +1,7 @@
 
 import './App.css';
 import { PRODUCTS } from './data/dataset';
+import { COL_HEADING_CITY, COL_HEADING_LASTUPDATEDDATE, COL_HEADING_STORE, COL_HEADING_PRICE, COL_HEADING_NAME } from './Constants.js';
 
 
 /**
@@ -100,11 +101,11 @@ function ProductTable({ products, filterText, inStockOnly }) {
     <table>
       <thead>
         <tr>
-          <th>Name</th>
-          <th>Price</th>
-          <th>Store</th>
-          <th>City</th>
-          <th>lastUpdatedDate</th>
+          <th>{COL_HEADING_NAME}</th>
+          <th>{COL_HEADING_PRICE}</th>
+          <th>{COL_HEADING_STORE}</th>
+          <th>{COL_HEADING_CITY}</th>
+          <th>{COL_HEADING_LASTUPDATEDDATE}</th>
         </tr>
       </thead>
       <tbody>{rows}</tbody>
