@@ -1,5 +1,6 @@
 
 import './App.css';
+import { PRODUCTS } from './data/dataset';
 
 /**
 FilterableProductTable
@@ -49,6 +50,9 @@ function ProductRow({ product }) {
     <tr>
       <td>{name}</td>
       <td>{product.price}</td>
+      <td>{product.store}</td>
+      <td>{product.city}</td>
+      <td>{product.lastUpdatedDate}</td>
     </tr>
   );
 }
@@ -89,6 +93,9 @@ function ProductTable({ products, filterText, inStockOnly }) {
         <tr>
           <th>Name</th>
           <th>Price</th>
+          <th>Store</th>
+          <th>City</th>
+          <th>LastUpdatedDate</th>
         </tr>
       </thead>
       <tbody>{rows}</tbody>
@@ -119,15 +126,6 @@ function SearchBar({
     </form>
   );
 }
-
-const PRODUCTS = [
-  { category: "Fruits", price: "$1", stocked: true, name: "Apple" },
-  { category: "Fruits", price: "$1", stocked: true, name: "Dragonfruit" },
-  { category: "Fruits", price: "$2", stocked: false, name: "Passionfruit" },
-  { category: "Vegetables", price: "$2", stocked: true, name: "Spinach" },
-  { category: "Vegetables", price: "$4", stocked: false, name: "Pumpkin" },
-  { category: "Vegetables", price: "$1", stocked: true, name: "Peas" }
-];
 
 export default function App() {
   return <FilterableProductTable products={PRODUCTS} />;
