@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/price-peekaboo/static/css/main.fe0412f7.css",
-    "main.js": "/price-peekaboo/static/js/main.e90ab9ec.js",
+    "main.css": "/price-peekaboo/static/css/main.7c1f1b9f.css",
+    "main.js": "/price-peekaboo/static/js/main.5f226f1b.js",
     "static/js/453.ff0e9376.chunk.js": "/price-peekaboo/static/js/453.ff0e9376.chunk.js",
     "index.html": "/price-peekaboo/index.html",
-    "main.fe0412f7.css.map": "/price-peekaboo/static/css/main.fe0412f7.css.map",
-    "main.e90ab9ec.js.map": "/price-peekaboo/static/js/main.e90ab9ec.js.map",
+    "main.7c1f1b9f.css.map": "/price-peekaboo/static/css/main.7c1f1b9f.css.map",
+    "main.5f226f1b.js.map": "/price-peekaboo/static/js/main.5f226f1b.js.map",
     "453.ff0e9376.chunk.js.map": "/price-peekaboo/static/js/453.ff0e9376.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fe0412f7.css",
-    "static/js/main.e90ab9ec.js"
+    "static/css/main.7c1f1b9f.css",
+    "static/js/main.5f226f1b.js"
   ]
 }
