@@ -3,7 +3,7 @@ import React from 'react';
 import ProductCategoryTableComponent from './ProductCategoryTableComponent';
 import ProductTableComponent from './ProductTableComponent';
 
-const ProductCategoriesComponent = ({ products, filterText }) => {
+const ProductCategoriesComponent = ({ products, globalSearchText }) => {
     const rows = [];
     const categoryToProductMap = new Map();
 
@@ -17,10 +17,7 @@ const ProductCategoriesComponent = ({ products, filterText }) => {
     categoryToProductMap.forEach((productsArray, productCategory) => {
         // Filter products for the current category
         const filteredProducts = productsArray.filter(product => {
-            if (filterText && product.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1) {
-                return false;
-            }
-            if (!product.stocked) {
+            if (globalSearchText && product.name.toLowerCase().indexOf(globalSearchText.toLowerCase()) === -1) {
                 return false;
             }
             return true;
@@ -37,7 +34,7 @@ const ProductCategoriesComponent = ({ products, filterText }) => {
             rows.push(
                 <ProductTableComponent
                     products={filteredProducts}
-                    filterText={filterText}
+                    globalSearchText={globalSearchText}
                     key={`${productCategory}-table`}
                 />
             );

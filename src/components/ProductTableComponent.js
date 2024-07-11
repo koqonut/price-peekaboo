@@ -1,54 +1,54 @@
 import React, { useMemo } from 'react';
 import { useTable, usePagination, useFilters } from 'react-table';
-import { COL_HEADING_CITY, COL_HEADING_LASTUPDATEDDATE, COL_HEADING_STORE, COL_HEADING_PRICE, COL_HEADING_NAME } from '../Constants';
+import { COL_HEADING_CITY, COL_HEADING_LASTUPDATEDDATE, COL_HEADING_STORE, COL_HEADING_PRICE, COL_HEADING_NAME, PAGE_SIZE } from '../utils/Constants';
 
-const ProductTableComponent = ({ products, filterText, inStockOnly }) => {
+const ProductTableComponent = ({ products, globalSearchText, inStockOnly }) => {
+    //useMemo for Data: Memoize the filtered data based on products, globalSearchText, and inStockOnly to optimize performance.
+
     const data = useMemo(() => {
         return products.filter(product => {
-            if (filterText && product.name.toLowerCase().indexOf(filterText.toLowerCase()) === -1) {
+            if (globalSearchText && product.name.toLowerCase().indexOf(globalSearchText.toLowerCase()) === -1) {
                 return false;
             }
-            if (inStockOnly && !product.stocked) {
+            if (!product.stocked) {
                 return false;
             }
             return true;
         });
-    }, [products, filterText, inStockOnly]);
+    }, [products, globalSearchText]);
 
 
 
     const columns = useMemo(
         () => [
             {
-                Header: COL_HEADING_NAME,
-                accessor: 'name',
+                Header: COL_HEADING_NAME.displayText,
+                accessor: COL_HEADING_NAME.accessor,
                 Filter: DefaultColumnFilter,
             },
             {
-                Header: COL_HEADING_PRICE,
-                accessor: 'price',
+                Header: COL_HEADING_PRICE.displayText,
+                accessor: COL_HEADING_PRICE.accessor,
                 disableFilters: true,
             },
             {
-                Header: COL_HEADING_STORE,
-                accessor: 'store',
+                Header: COL_HEADING_STORE.displayText,
+                accessor: COL_HEADING_STORE.accessor,
                 Filter: DefaultColumnFilter,
             },
             {
-                Header: COL_HEADING_CITY,
-                accessor: 'city',
+                Header: COL_HEADING_CITY.displayText,
+                accessor: COL_HEADING_CITY.accessor,
                 Filter: DefaultColumnFilter,
             },
             {
-                Header: COL_HEADING_LASTUPDATEDDATE,
-                accessor: 'lastUpdatedDate',
+                Header: COL_HEADING_LASTUPDATEDDATE.displayText,
+                accessor: COL_HEADING_LASTUPDATEDDATE.accessor,
                 disableFilters: true,
             },
         ],
         []
     );
-
-
 
     const {
         getTableProps,
@@ -64,9 +64,10 @@ const ProductTableComponent = ({ products, filterText, inStockOnly }) => {
         state: { pageIndex },
     } = useTable(
         {
+            //Initialize the useTable hook with columns and data.
             columns,
             data,
-            initialState: { pageIndex: 0, pageSize: 5 }, // Set initial page size to 5
+            initialState: { pageIndex: 0, pageSize: PAGE_SIZE }, // Set initial page size and pageIndex
         },
         useFilters, // Use the useFilters plugin hook
         usePagination // Use the usePagination plugin hook
@@ -88,7 +89,7 @@ const ProductTableComponent = ({ products, filterText, inStockOnly }) => {
                                         {headerGroup.headers.map(column => (
                                             <th
                                                 {...column.getHeaderProps()}
-                                                className="px-6 py-3 text-left text-xs font-medium text-gray-500 uppercase tracking-wider"
+                                                className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider"
                                             >
                                                 {column.render('Header')}
                                                 <div>{column.canFilter ? column.render('Filter') : null}</div>
@@ -132,10 +133,13 @@ const ProductTableComponent = ({ products, filterText, inStockOnly }) => {
         </div>
     );
 };
-
-function DefaultColumnFilter({
-    column: { filterValue, preFilteredRows, setFilter },
-}) {
+/**
+DefaultColumnFilter: Define a default column filter component that provides an input field for filtering column data.
+filterValue: The current filter value.
+preFilteredRows: The rows before filtering.
+setFilter: The function to update the filter value.
+ */
+function DefaultColumnFilter({ column: { filterValue, preFilteredRows, setFilter }, }) {
     const count = preFilteredRows.length;
 
     return (
