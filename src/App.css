@@ -52,7 +52,7 @@
 
 /* Mobile header specific styles */
 .mobile-header {
-  background-image: url('images/header_bw_400px.png');
+  background-image: url('images/header_bw.png');
   background-size: cover;
   background-position: center;
   height: 25vh;
