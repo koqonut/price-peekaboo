@@ -10,4 +10,7 @@ export const APP_NAME = "Price Peekaboo";
 
 export const APP_ONE_LINER = "Don't overpay for everyday stuff!"
 
-export const APP_DESCRIPTION = "See the lowest prices from the past to ensure you're getting the best deal today."
+export const APP_DESCRIPTION = "Check the lowest prices from the past to ensure you're getting the best deal today."
+
+
+export const MOBILE_SCREEN_CUTOFF = 400;

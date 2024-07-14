@@ -1,5 +1,6 @@
 import React from 'react';
 import useWindowSize from './useWindowSize';
+import { MOBILE_SCREEN_CUTOFF } from '../utils/Constants';
 
 const MobileHeader = () => (
     <header className="mobile-header relative w-full">
@@ -18,7 +19,7 @@ const LaptopHeader = () => (
 const ResponsiveHeader = () => {
     const size = useWindowSize();
 
-    return size.width < 768 ? <MobileHeader /> : <LaptopHeader />;
+    return size.width < MOBILE_SCREEN_CUTOFF ? <MobileHeader /> : <LaptopHeader />;
 };
 
 export default ResponsiveHeader;
