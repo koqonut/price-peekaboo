@@ -2,7 +2,7 @@ import React from 'react';
 
 const SearchBarComponent = ({ filterText, onGlobalSearchText }) => {
     return (
-        <form className="container mx-auto p-4  max-w-[50%] text-center">
+        <form className="container mx-auto p-4  max-w-[75%] text-center">
             <div className="mb-4">
                 <h2 className="text-2l font-semibold mb-2">Search</h2>
                 <input

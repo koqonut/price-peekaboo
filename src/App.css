@@ -38,19 +38,50 @@
   }
 }
 
+
+
+/* Common styles for both headers */
+.header-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+/* Mobile header specific styles */
+.mobile-header {
+  background-image: url('images/header_bw.png');
+  background-size: cover;
+  background-position: center;
+  height: 30vh;
+  /* 30% of the viewport height */
+}
+
+/* Laptop header specific styles */
+.laptop-header {
+  background-image: url('images/header_rgb.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 40vh;
+  /* 40% of the viewport height */
+}
+
+
 .top-section {
   display: flex;
   align-items: center;
   padding: 2rem;
   border-radius: 1rem;
-  margin-bottom: 1.5rem;
-  background: url('/public/heading.png') left center no-repeat;
+  margin-bottom: 0.1rem;
   /* Adjust this path as needed */
   background-size: auto;
 }
 
 .top-section-text {
-  margin-left: 380px;
+  margin-left: 1rem;
   /* Adjust this width to match the width of your background image */
 }
 
