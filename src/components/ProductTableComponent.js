@@ -79,39 +79,45 @@ const ProductTableComponent = ({ products, globalSearchText }) => {
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
                     <div className="overflow-hidden shadow-md sm:rounded-lg">
-                        <table {...getTableProps()} className="min-w-full divide-y divide-gray-200">
-                            <thead className="bg-gray-50">
-                                {headerGroups.map(headerGroup => (
-                                    <tr {...headerGroup.getHeaderGroupProps()}>
-                                        {headerGroup.headers.map(column => (
-                                            <th
-                                                {...column.getHeaderProps()}
-                                                className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider"
-                                            >
-                                                {column.render('Header')}
-                                                <div>{column.canFilter ? column.render('Filter') : null}</div>
-                                            </th>
-                                        ))}
-                                    </tr>
-                                ))}
-                            </thead>
-                            <tbody {...getTableBodyProps()} className="bg-white divide-y divide-gray-200">
-                                {page.map(row => {
-                                    prepareRow(row);
-                                    return (
-                                        <tr {...row.getRowProps()}>
-                                            {row.cells.map(cell => (
-                                                <td {...cell.getCellProps()} className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
-                                                    {cell.render('Cell')}
-                                                </td>
+                        <div className="table-container">
+                            <table {...getTableProps()} className="min-w-full divide-y divide-gray-200">
+                                <thead className="bg-gray-50">
+                                    {headerGroups.map(headerGroup => (
+                                        <tr {...headerGroup.getHeaderGroupProps()}>
+                                            {headerGroup.headers.map(column => (
+                                                <th
+                                                    {...column.getHeaderProps()}
+                                                    className="px-6 py-3 text-left text-xs font-bold text-gray-500 uppercase tracking-wider"
+                                                >
+                                                    {column.render('Header')}
+                                                    <div>{column.canFilter ? column.render('Filter') : null}</div>
+                                                </th>
                                             ))}
                                         </tr>
-                                    );
-                                })}
-                            </tbody>
-                        </table>
+                                    ))}
+                                </thead>
+                                <tbody {...getTableBodyProps()} className="bg-white divide-y divide-gray-200">
+                                    {page.map((row, index) => {
+                                        prepareRow(row);
+                                        return (
+                                            <tr {...row.getRowProps()}
+                                                className={index % 2 === 0 ? 'hover:bg-gray-200' : 'bg-gray-100 hover:bg-gray-200'}
+                                            >
+                                                {row.cells.map(cell => (
+                                                    <td {...cell.getCellProps()} className="px-6 py-4 whitespace-nowrap text-sm text-gray-900">
+                                                        {cell.render('Cell')}
+                                                    </td>
+                                                ))}
+                                            </tr>
+                                        );
+                                    })}
+                                </tbody>
+                            </table>
+                        </div>
                         <div className="pagination flex justify-between mt-4">
-                            <button onClick={() => previousPage()} disabled={!canPreviousPage} className="px-3 py-2 border rounded-md text-gray-700 hover:bg-gray-200">
+                            <button onClick={() => previousPage()} disabled={!canPreviousPage}
+                                className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
                                 Previous
                             </button>
                             <span>
@@ -120,7 +126,9 @@ const ProductTableComponent = ({ products, globalSearchText }) => {
                                     {pageIndex + 1} of {pageOptions.length}
                                 </strong>
                             </span>
-                            <button onClick={() => nextPage()} disabled={!canNextPage} className="px-3 py-2 border rounded-md text-gray-700 hover:bg-gray-200">
+                            <button onClick={() => nextPage()} disabled={!canNextPage}
+                                className="px-4 py-2 bg-blue-500 text-white font-semibold rounded-md shadow-md hover:bg-blue-600 transition duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
+                            >
                                 Next
                             </button>
                         </div>

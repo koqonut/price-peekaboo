@@ -1,762 +1,857 @@
 [
     {
+        "id": 1,
         "category": "Fruits",
         "price": "$1.98",
-        "name": "PEACHES 1 LB",
+        "name": "Peaches 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 2,
         "category": "Fruits",
         "price": "$3.98",
-        "name": "RED CHERRIES 1 LB",
+        "name": "Red Cherries 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 3,
         "category": "Fruits",
         "price": "$2.98",
-        "name": "PINEAPPLES GOLDEN RIPE ",
+        "name": "Pineapples Golden Ripe",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 4,
         "category": "Fruits",
         "price": "$2.98",
-        "name": "CANTALOUPES",
+        "name": "Cantaloupes",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 5,
         "category": "Fruits",
         "price": "$2.98",
-        "name": "STRAWBERRIES 454 G",
+        "name": "Strawberries 454 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 6,
         "category": "Fruits",
         "price": "$3.98",
-        "name": "RASPBERRIES 170 G",
+        "name": "Raspberries 170 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 7,
         "category": "Fruits",
         "price": "$3.98",
-        "name": "BLUEBERRIES PINT",
+        "name": "Blueberries Pint",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 8,
         "category": "Fruits",
         "price": "$3.98",
-        "name": "LEMONS (2 LB BAG)",
+        "name": "Lemons (2 LB Bag)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 9,
         "category": "Fruits",
         "price": "$2.98",
-        "name": "LIMES (1 LB BAG)",
+        "name": "Limes (1 LB Bag)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 10,
         "category": "Fruits",
         "price": "$3.98",
-        "name": "CLEMENTINES 2 LB BAG",
+        "name": "Clementines 2 LB Bag",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 11,
         "category": "Fruits",
         "price": "$3.98",
-        "name": "KIWIS 600 G",
+        "name": "Kiwis 600 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 12,
         "category": "Fruits",
         "price": "$5.98",
-        "name": "WATERMELON SEEDLESS",
+        "name": "Watermelon Seedless",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 13,
         "category": "Fruits",
         "price": "$5.98",
-        "name": "PLUMS (ONTARIO YELLOW) 1.5 L",
+        "name": "Plums (Ontario Yellow) 1.5 L",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 14,
         "category": "Fruits",
         "price": "$1.88",
-        "name": "PEARS (BARTLETT / FORELLE)",
+        "name": "Pears (Bartlett / Forelle)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
-        "category": "Fruits",
-        "price": "$1.98",
-        "name": "PEARS FORELLE",
-        "lastUpdatedDate": "2024-07-14",
-        "store": "Food Basics",
-        "city": "Toronto"
-    },
-    {
+        "id": 15,
         "category": "Fruits",
         "price": "$3.98",
-        "name": "GRAPES (RED / GREEN)",
+        "name": "Grapes (Red / Green)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 16,
         "category": "Fruits",
         "price": "$0.98",
-        "name": "MANGOES",
+        "name": "Mangoes",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 17,
         "category": "Fruits",
         "price": "$4.88",
-        "name": "AVOCADOS (BAG OF 5 OR 6)",
+        "name": "Avocados (Bag of 5 or 6)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 18,
         "category": "Fruits",
         "price": "$4.98",
-        "name": "GRAPEFRUITS 3 LB BAG",
+        "name": "Grapefruits 3 LB Bag",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 19,
         "category": "Fruits",
         "price": "$0.59",
-        "name": "BANANA",
+        "name": "Banana",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 20,
         "category": "Fruits",
         "price": "$4.98",
-        "name": "APPLES (GALA, RED PRINCE, AMBROSIA, HONEYCRISP, McINTOSH, RED DELICIOUS) 3 LB BAG",
+        "name": "Apples (Gala, Red Prince, Ambrosia, Honeycrisp, McIntosh, Red Delicious) 3 LB Bag",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 21,
         "category": "Vegetables",
         "price": "$1.50",
-        "name": "SEEDLESS CUCUMBERS",
+        "name": "Seedless Cucumbers",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 22,
         "category": "Vegetables",
         "price": "$2.88",
-        "name": "MINI CUCUMBERS 397 G",
+        "name": "Mini Cucumbers 397 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 23,
         "category": "Vegetables",
         "price": "$1.88",
-        "name": "TOMATOES HOTHOUSE 1 LB",
+        "name": "Tomatoes Hothouse 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 24,
         "category": "Vegetables",
         "price": "$1.98",
-        "name": "TOMATOES ON THE VINE 1 LB",
+        "name": "Tomatoes on the Vine 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 25,
         "category": "Vegetables",
         "price": "$1.48",
-        "name": "TOMATOES LARGE BEEFSTEAK",
+        "name": "Tomatoes Large Beefsteak",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 26,
         "category": "Vegetables",
         "price": "$1.98",
-        "name": "BROCCOLI CROWNS",
+        "name": "Broccoli Crowns",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 27,
         "category": "Vegetables",
         "price": "$3.98",
-        "name": "CAULIFLOWER",
+        "name": "Cauliflower",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 28,
         "category": "Vegetables",
         "price": "$1.68",
-        "name": "EGGPLANT LB",
+        "name": "Eggplant LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 29,
         "category": "Vegetables",
         "price": "$1.28",
-        "name": "POTATOES (SWEET / PURPLE) 1 LB",
+        "name": "Potatoes (Sweet / Purple) 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 30,
         "category": "Vegetables",
         "price": "$3.98",
-        "name": "POTATOES (RUSSET / RED / YELLOW) 5 LB",
+        "name": "Potatoes (Russet / Red / Yellow) 5 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 31,
         "category": "Vegetables",
         "price": "$2.98",
-        "name": "ASPARAGAS 1 LB",
+        "name": "Asparagus 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 32,
         "category": "Vegetables",
         "price": "$1.98",
-        "name": "CARROTS 2 LB BAG",
+        "name": "Carrots 2 LB Bag",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 33,
         "category": "Vegetables",
         "price": "$1.98",
-        "name": "ZUCCHINI 1 LB",
+        "name": "Zucchini 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 34,
         "category": "Vegetables",
         "price": "$3.98",
-        "name": "ROMAINE HEARTS PKG OF 3",
+        "name": "Romaine Hearts Pkg of 3",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 35,
         "category": "Vegetables",
         "price": "$1.98",
-        "name": "LETTUCE (RED OR GREEN LEAF)",
+        "name": "Lettuce (Red or Green Leaf)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 36,
         "category": "Vegetables",
         "price": "$4.98",
-        "name": "PEPPERS (SWEET ASSORTED) PKG OF 4",
+        "name": "Peppers (Sweet Assorted) Pkg of 4",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 37,
         "category": "Vegetables",
         "price": "$3.77",
-        "name": "GREEN BEANS 350 G",
+        "name": "Green Beans 350 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 38,
         "category": "Vegetables",
         "price": "$3.98",
-        "name": "GREEN GIANT SUGAR SNAP OR SNOW PEAS 170 - 227 G",
+        "name": "Green Giant Sugar Snap or Snow Peas 170 - 227 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 39,
         "category": "Vegetables",
         "price": "$1.98",
-        "name": "KALE",
+        "name": "Kale",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 40,
         "category": "Vegetables",
         "price": "$3.98",
-        "name": "VIDALIA YELLOW ONIONS 3 LB BAG",
+        "name": "Vidalia Yellow Onions 3 LB Bag",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 41,
         "category": "Vegetables",
         "price": "$8.98",
-        "name": "ONIONS RED  7 LB BAG",
+        "name": "Onions Red 7 LB Bag",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 42,
         "category": "Vegetables",
         "price": "$4.88",
-        "name": "PORTOBELLINI MUSHROOMS 334 G",
+        "name": "Portobellini Mushrooms 334 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 43,
         "category": "Vegetables",
         "price": "$3.98",
-        "name": "MUSHROOMS (WHOLE WHITE OR CREMINI) 454 G",
+        "name": "Mushrooms (Whole White or Cremini) 454 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 44,
         "category": "Vegetables",
         "price": "$2.49",
-        "name": "TOFU 454 G ",
+        "name": "Tofu 454 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Metro",
         "city": "Toronto"
     },
     {
+        "id": 45,
         "category": "Vegetables",
         "price": "$3.99",
-        "name": "OKRA 1 LB ",
+        "name": "Okra 1 LB",
         "lastUpdatedDate": "2024-07-14",
-        "store": "Chalo Freshco",
-        "city": "Toronto"
+        "store": "Chalo FreshCo",
+        "city": "Brampton"
     },
     {
+        "id": 46,
         "category": "Vegetables",
         "price": "$5.49",
-        "name": "BITTER GOURD (KARELA) 1 LB ",
+        "name": "Bitter Gourd (Karela) 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Walmart",
         "city": "Toronto"
     },
     {
+        "id": 47,
         "category": "Vegetables",
         "price": "$3.98",
-        "name": "SWEET CORN PKG OF 4",
+        "name": "Sweet Corn Pkg of 4",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 48,
         "category": "Staples",
         "price": "$2.22",
-        "name": "BREAD (WHITE/WHOLE DEMPSTERS) 675 G ",
+        "name": "Bread (White/Whole Dempsters) 675 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Freshco",
         "city": "Toronto"
     },
     {
+        "id": 49,
         "category": "Staples",
         "price": "$2.98",
-        "name": "BREAD (WHOLE GRAIN DEMPSTERS) 600 G ",
+        "name": "Bread (Whole Grain Dempsters) 600 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 50,
         "category": "Staples",
         "price": "$2.50",
-        "name": "PASTA  (PENNE PRIMO) 900 G ",
+        "name": "Pasta (Penne Primo) 900 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Metro",
         "city": "Toronto"
     },
     {
+        "id": 51,
         "category": "Staples",
         "price": "$13.99",
-        "name": "RICE (JASMINE) 8 KG ",
+        "name": "Rice (Jasmine) 8 KG",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 52,
         "category": "Staples",
         "price": "$12.99",
-        "name": "RICE (PARBOILED NUPAK) 8 KG ",
+        "name": "Rice (Parboiled Nupak) 8 KG",
         "lastUpdatedDate": "2024-07-14",
         "store": "Freshco",
         "city": "Toronto"
     },
     {
+        "id": 53,
         "category": "Staples",
         "price": "$8.98",
-        "name": "OLIVE OIL (EXTRA VIRGIN) 750 ML ",
+        "name": "Olive Oil (Extra Virgin) 750 ML",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 54,
         "category": "Staples",
         "price": "$3.29",
-        "name": "KETCHUP (NO NAME) 1 L ",
+        "name": "Ketchup (No Name) 1 L",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 55,
         "category": "Staples",
         "price": "$4.49",
-        "name": "KETCHUP (FRENCH) 1 L ",
+        "name": "Ketchup (French) 1 L",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 56,
         "category": "Staples",
         "price": "$5.77",
-        "name": "MAYONNAISE (HELLMAN) 890 ML ",
+        "name": "Mayonnaise (Hellman) 890 ML",
         "lastUpdatedDate": "2024-07-14",
         "store": "Walmart",
         "city": "Toronto"
     },
     {
+        "id": 57,
         "category": "Staples",
         "price": "$1.27",
-        "name": "MUSTARD (GREAT VALUE) 890 ML ",
+        "name": "Mustard (Great Value) 890 ML",
         "lastUpdatedDate": "2024-07-14",
         "store": "Walmart",
         "city": "Toronto"
     },
     {
+        "id": 58,
         "category": "Staples",
         "price": "$9.99",
-        "name": "SUNFLOWER OIL (UNICO) 3 L ",
+        "name": "Sunflower Oil (Unico) 3 L",
         "lastUpdatedDate": "2024-07-14",
         "store": "Highland Farms",
         "city": "Toronto"
     },
     {
+        "id": 59,
         "category": "Staples",
         "price": "$4.49",
-        "name": "FLOUR (ALL PURPOSE NO NAME) 2.5 KG ",
+        "name": "Flour (All Purpose No Name) 2.5 KG",
         "lastUpdatedDate": "2024-07-14",
         "store": "Loblaws",
         "city": "Toronto"
     },
     {
+        "id": 60,
         "category": "Vegetables",
         "price": "$4.29",
-        "name": "PEANUT BUTTER (NO NAME) 1 KG ",
+        "name": "Peanut Butter (No Name) 1 KG",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 61,
         "category": "Vegetables",
         "price": "$5.99",
-        "name": "JUICE (TROPICANA ORNAGE) 2.63 L ",
+        "name": "Juice (Tropicana Orange) 2.63 L",
         "lastUpdatedDate": "2024-07-14",
         "store": "Metro",
         "city": "Toronto"
     },
     {
+        "id": 62,
         "category": "Dairy and Eggs",
         "price": "$3.98",
-        "name": "MILK (LACTANIA) 4 L ",
+        "name": "Milk (Lactania) 4 L",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 63,
         "category": "Dairy and Eggs",
         "price": "$5.87",
-        "name": "GREEK YOGURT (LIBERTE) 750 G",
+        "name": "Greek Yogurt (Liberte) 750 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 64,
         "category": "Dairy and Eggs",
         "price": "$2.49",
-        "name": "YOGURT OR DAHI 750 G",
+        "name": "Yogurt or Dahi 750 G",
         "lastUpdatedDate": "2024-07-14",
-        "store": "Freshco",
+        "store": "FreshCo",
         "city": "Toronto"
     },
     {
+        "id": 65,
         "category": "Dairy and Eggs",
         "price": "$7.99",
-        "name": "EGGS (COMPLIMENTS LARGE 30 PK) ",
+        "name": "Eggs (Compliments Large 30 PK)",
         "lastUpdatedDate": "2024-07-14",
-        "store": "Freshco",
+        "store": "FreshCo",
         "city": "Toronto"
     },
     {
+        "id": 66,
         "category": "Dairy and Eggs",
         "price": "$4.99",
-        "name": "SKYR 750 G ",
+        "name": "Skyr 750 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 67,
         "category": "Dairy and Eggs",
         "price": "$4.99",
-        "name": "BUTTER (NO NAME) 454 G ",
+        "name": "Butter (No Name) 454 G",
         "lastUpdatedDate": "2024-07-14",
-        "store": "Shoppers drug mart",
+        "store": "Shoppers Drug Mart",
         "city": "Toronto"
     },
     {
+        "id": 68,
         "category": "Dairy and Eggs",
         "price": "$4.99",
-        "name": "MARGARINE (NO NAME) 907 G ",
+        "name": "Margarine (No Name) 907 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Loblaws",
         "city": "Toronto"
     },
     {
+        "id": 69,
         "category": "Dairy and Eggs",
         "price": "$3.97",
-        "name": "CHEESE (COMPLIMENTS SHREDDED) 320 G ",
+        "name": "Cheese (Compliments Shredded) 320 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Sobeys",
         "city": "Toronto"
     },
     {
+        "id": 70,
         "category": "Dairy and Eggs",
         "price": "$3.99",
-        "name": "ICE CREAM (CHAPMAN PREMIUM) ",
+        "name": "Ice Cream (Chapman Premium)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Loblaws",
         "city": "Toronto"
     },
     {
+        "id": 71,
         "category": "Dairy and Eggs",
         "price": "$13.99",
-        "name": "GHEE (BRAR) 800 G ",
+        "name": "Ghee (Brar) 800 G",
         "lastUpdatedDate": "2024-07-14",
-        "store": "Chalo Freshco",
-        "city": "Toronto"
+        "store": "Chalo FreshCo",
+        "city": "Brampton"
     },
     {
+        "id": 72,
         "category": "Dairy and Eggs",
         "price": "$3.49",
-        "name": "COTTAGE CHEESE (NEILSON) 500 G ",
+        "name": "Cottage Cheese (Neilson) 500 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Shoppers Drug Mart",
         "city": "Toronto"
     },
     {
+        "id": 73,
         "category": "Dairy and Eggs",
         "price": "$3.98",
-        "name": "WHIPPING CREAM (NEILSON) 473 ML ",
+        "name": "Whipping Cream (Neilson) 473 ML",
         "lastUpdatedDate": "2024-07-14",
         "store": "Shoppers Drug Mart",
         "city": "Toronto"
     },
     {
+        "id": 74,
         "category": "Dairy and Eggs",
         "price": "$3.49",
-        "name": "SOUR CREAM (NEILSON's) 500 ML ",
+        "name": "Sour Cream (Neilson's) 500 ML",
         "lastUpdatedDate": "2024-07-14",
         "store": "Shoppers Drug Mart",
         "city": "Toronto"
     },
     {
+        "id": 75,
         "category": "Meat",
         "price": "$5.99",
-        "name": "CHICKEN BREAST BONELESS SKINLESS) 1 LB ",
+        "name": "Chicken Breast Boneless Skinless 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Metro",
         "city": "Toronto"
     },
     {
+        "id": 76,
         "category": "Meat",
         "price": "$2.98",
-        "name": "CHICKEN BREAST BONE-IN ) 1 LB",
+        "name": "Chicken Breast Bone-In 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Walmart",
         "city": "Toronto"
     },
     {
+        "id": 77,
         "category": "Meat",
         "price": "$2.49",
-        "name": "CHICKEN WHOLE ) 1 LB",
+        "name": "Chicken Whole 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Loblaws",
         "city": "Toronto"
     },
     {
+        "id": 78,
         "category": "Meat",
         "price": "$2.99",
-        "name": "CHICKEN DRUMSTICKS  1 LB ",
+        "name": "Chicken Drumsticks 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 79,
         "category": "Meat",
         "price": "$4.99",
-        "name": "BEEF (GROUND LEAN) 1 LB ",
+        "name": "Beef (Ground Lean) 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Longos",
         "city": "Toronto"
     },
     {
+        "id": 80,
         "category": "Meat",
         "price": "$1.99",
-        "name": "PORK (LOIN, RIB, SIRLOIN) 1 LB",
+        "name": "Pork (Loin, Rib, Sirloin) 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 81,
         "category": "Meat",
         "price": "$2.99",
-        "name": "HAM (ROASTED MASTRO) 100 G",
+        "name": "Ham (Roasted Mastro) 100 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Metro",
         "city": "Toronto"
     },
     {
+        "id": 82,
         "category": "Meat",
         "price": "$5.00",
-        "name": "BACON (NO NAME) 500 G",
+        "name": "Bacon (No Name) 500 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 83,
         "category": "Meat",
         "price": "$2.49",
-        "name": "SMOKED TURKEY BREAST (SELECTION) 100 G",
+        "name": "Smoked Turkey Breast (Selection) 100 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Metro",
         "city": "Toronto"
     },
     {
+        "id": 84,
         "category": "Meat",
         "price": "$9.77",
-        "name": "ATLANTIC SALMON FILLET 1 LB",
+        "name": "Atlantic Salmon Fillet 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 85,
         "category": "Meat",
         "price": "$11.99",
-        "name": "COHO SALMON FILLET 1 LB",
+        "name": "Coho Salmon Fillet 1 LB",
         "lastUpdatedDate": "2024-07-14",
         "store": "Food Basics",
         "city": "Toronto"
     },
     {
+        "id": 86,
         "category": "Meat",
         "price": "$7.99",
-        "name": "SHRIMP RAW 300 G",
+        "name": "Shrimp Raw 300 G",
         "lastUpdatedDate": "2024-07-14",
         "store": "Metro",
         "city": "Toronto"
     },
     {
+        "id": 87,
         "category": "Household Supplies",
         "price": "$8.88",
-        "name": "PUREX LAUNDRY DETERGENT ( 4.43 L 110 LOADS) ",
+        "name": "Purex Laundry Detergent (4.43 L 110 Loads)",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 88,
         "category": "Household Supplies",
         "price": "$20.99",
-        "name": "TIDE LIQUID LAUNDRY DETERGENT ( 3.9 L 94 LOADS) ",
+        "name": "Tide Liquid Laundry Detergent (3.9 L 94 Loads)",
         "lastUpdatedDate": "2024-07-14",
-        "store": "Freshco",
+        "store": "FreshCo",
         "city": "Toronto"
     },
     {
+        "id": 89,
         "category": "Household Supplies",
         "price": "$2.49",
-        "name": "DAWN DISHWASHING LIQUID ( 473 ML) ",
+        "name": "Dawn Dishwashing Liquid (473 ML)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Real Canadian Superstore",
         "city": "Toronto"
     },
     {
+        "id": 90,
         "category": "Household Supplies",
         "price": "$3.97",
-        "name": "CLOROX ( 1.27 L) ",
+        "name": "Clorox (1.27 L)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Walmart",
         "city": "Toronto"
     },
     {
+        "id": 91,
         "category": "Household Supplies",
         "price": "$7.99",
-        "name": "PAPER TOWEL (BOUNTY 4 ROLLS) ",
+        "name": "Paper Towel (Bounty 4 Rolls)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Real Canadian Superstore",
         "city": "Toronto"
     },
     {
+        "id": 92,
         "category": "Household Supplies",
         "price": "$12.97",
-        "name": "TOILET PAPER (ROYALE  30 PACK 2-PLY ) ",
+        "name": "Toilet Paper (Royale 30 Pack 2-Ply)",
         "lastUpdatedDate": "2024-07-14",
         "store": "Walmart",
         "city": "Toronto"
     },
     {
+        "id": 93,
         "category": "Household Supplies",
         "price": "$8.99",
-        "name": "GARBAGE BAGS (GLAD TALL 45 L, 30 BAGS ",
+        "name": "Garbage Bags (Glad Tall 45 L, 30 Bags)",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
         "city": "Toronto"
     },
     {
+        "id": 94,
         "category": "Household Supplies",
         "price": "$4.50",
-        "name": "HAND SOAP (SOFTSOAP 1.47 L)",
+        "name": "Hand Soap (Softsoap 1.47 L)",
         "lastUpdatedDate": "2024-07-14",
         "store": "No Frills",
+        "city": "Toronto"
+    },
+    {
+        "id": 95,
+        "category": "Household Supplies",
+        "price": "$0.99",
+        "name": "Toothpaste (Colgate Max Fresh) 100 ml",
+        "lastUpdatedDate": "2024-07-14",
+        "store": "Rexall",
         "city": "Toronto"
     }
 ]

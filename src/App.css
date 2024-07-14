@@ -32,7 +32,69 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
+  }
+}
+
+.top-section {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  background: url('/public/heading.png') left center no-repeat;
+  /* Adjust this path as needed */
+  background-size: auto;
+}
+
+.top-section-text {
+  margin-left: 380px;
+  /* Adjust this width to match the width of your background image */
+}
+
+@media (max-width: 768px) {
+  .top-section {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .top-section-text {
+    margin-left: 0;
+    margin-top: 1rem;
+  }
+}
+
+/* Add styles for the table container */
+.table-container {
+  width: 100%;
+  overflow-x: auto;
+  /* Allow horizontal scrolling if necessary */
+  -webkit-overflow-scrolling: touch;
+  /* Smooth scrolling on iOS */
+}
+
+/* Make table responsive */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Style table headers and cells */
+.table th,
+.table td {
+  padding: 12px 15px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+
+  .table th,
+  .table td {
+    padding: 8px 10px;
+    font-size: 14px;
   }
 }
