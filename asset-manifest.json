@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/price-peekaboo/static/css/main.7c1f1b9f.css",
-    "main.js": "/price-peekaboo/static/js/main.d973fe59.js",
+    "main.css": "/price-peekaboo/static/css/main.64de0f4c.css",
+    "main.js": "/price-peekaboo/static/js/main.68bd69ce.js",
     "static/js/453.ff0e9376.chunk.js": "/price-peekaboo/static/js/453.ff0e9376.chunk.js",
+    "static/media/heading.png": "/price-peekaboo/static/media/heading.f60d41b16b4e8c926dec.png",
     "index.html": "/price-peekaboo/index.html",
-    "main.7c1f1b9f.css.map": "/price-peekaboo/static/css/main.7c1f1b9f.css.map",
-    "main.d973fe59.js.map": "/price-peekaboo/static/js/main.d973fe59.js.map",
+    "main.64de0f4c.css.map": "/price-peekaboo/static/css/main.64de0f4c.css.map",
+    "main.68bd69ce.js.map": "/price-peekaboo/static/js/main.68bd69ce.js.map",
     "453.ff0e9376.chunk.js.map": "/price-peekaboo/static/js/453.ff0e9376.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c1f1b9f.css",
-    "static/js/main.d973fe59.js"
+    "static/css/main.64de0f4c.css",
+    "static/js/main.68bd69ce.js"
   ]
 }
