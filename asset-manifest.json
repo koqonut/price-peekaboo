@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/price-peekaboo/static/css/main.7c1f1b9f.css",
-    "main.js": "/price-peekaboo/static/js/main.5f226f1b.js",
+    "main.js": "/price-peekaboo/static/js/main.d973fe59.js",
     "static/js/453.ff0e9376.chunk.js": "/price-peekaboo/static/js/453.ff0e9376.chunk.js",
     "index.html": "/price-peekaboo/index.html",
     "main.7c1f1b9f.css.map": "/price-peekaboo/static/css/main.7c1f1b9f.css.map",
-    "main.5f226f1b.js.map": "/price-peekaboo/static/js/main.5f226f1b.js.map",
+    "main.d973fe59.js.map": "/price-peekaboo/static/js/main.d973fe59.js.map",
     "453.ff0e9376.chunk.js.map": "/price-peekaboo/static/js/453.ff0e9376.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7c1f1b9f.css",
-    "static/js/main.5f226f1b.js"
+    "static/js/main.d973fe59.js"
   ]
 }
