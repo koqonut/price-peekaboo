@@ -2,15 +2,12 @@ import React, { useMemo } from 'react';
 import { useTable, usePagination, useFilters } from 'react-table';
 import { COL_HEADING_CITY, COL_HEADING_LASTUPDATEDDATE, COL_HEADING_STORE, COL_HEADING_PRICE, COL_HEADING_NAME, PAGE_SIZE } from '../utils/Constants';
 
-const ProductTableComponent = ({ products, globalSearchText, inStockOnly }) => {
+const ProductTableComponent = ({ products, globalSearchText }) => {
     //useMemo for Data: Memoize the filtered data based on products, globalSearchText, and inStockOnly to optimize performance.
 
     const data = useMemo(() => {
         return products.filter(product => {
             if (globalSearchText && product.name.toLowerCase().indexOf(globalSearchText.toLowerCase()) === -1) {
-                return false;
-            }
-            if (!product.stocked) {
                 return false;
             }
             return true;

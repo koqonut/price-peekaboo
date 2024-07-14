@@ -1,4 +1,4 @@
-export const PRODUCTS = [
+[
     {
         "category": "Fruits",
         "price": "$1.98",
