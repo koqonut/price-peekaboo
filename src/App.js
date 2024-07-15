@@ -10,14 +10,18 @@ import CategoryListComponent from './components/CategoryListComponent';
 
 function FilterableProductTable({ products }) {
   const [globalSearchText, setGlobalSearchText] = useState('');
-  const [selectedCategory, setSelectedCategory] = useState(null);
+  const [selectedCategory, setSelectedCategory] = useState('All');
 
   const [categories, setCategories] = useState([]);
-
+  const [isDrawerOpen, setIsDrawerOpen] = useState(false);
   useEffect(() => {
     const uniqueCategories = [...new Set(products.map(product => product.category))];
     setCategories(uniqueCategories);
   }, [products]);
+
+  const toggleDrawer = () => {
+    setIsDrawerOpen(!isDrawerOpen);
+  };
 
   return (
     <div >
@@ -37,15 +41,22 @@ function FilterableProductTable({ products }) {
       <div className="main-container mx-auto p-6 rounded-lg shadow-lg bg-white" >
 
         <div className="content">
-          <div className="left-panel">
+          <button className="drawer-toggle" onClick={toggleDrawer}>
+            ☰
+          </button>
+          <div className={`left-panel ${isDrawerOpen ? 'open' : ''}`}>
             <CategoryListComponent
               categories={categories}
+              selectedCategory={selectedCategory}
               onSelectCategory={setSelectedCategory}
-            />          </div>
+            />
+          </div>
+
           <div className="right-panel">
             <ProductCategoriesComponent
               products={products}
               globalSearchText={globalSearchText}
+              selectedCategory={selectedCategory}
             />
           </div>
         </div>

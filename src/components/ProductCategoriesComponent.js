@@ -3,7 +3,7 @@ import React from 'react';
 import ProductCategoryTableComponent from './ProductCategoryTableComponent';
 import ProductTableComponent from './ProductTableComponent';
 
-const ProductCategoriesComponent = ({ products, globalSearchText }) => {
+const ProductCategoriesComponent = ({ products, globalSearchText, selectedCategory }) => {
     const rows = [];
     const categoryToProductMap = new Map();
 
@@ -14,8 +14,32 @@ const ProductCategoriesComponent = ({ products, globalSearchText }) => {
         categoryToProductMap.get(product.category).push(product);
     });
 
-    categoryToProductMap.forEach((productsArray, productCategory) => {
-        // Filter products for the current category
+    if (selectedCategory === "All") {
+        const filteredProducts = products.filter(product => {
+            if (globalSearchText && product.name.toLowerCase().indexOf(globalSearchText.toLowerCase()) === -1) {
+                return false;
+            }
+            return true;
+        });
+
+        if (filteredProducts.length > 0) {
+            rows.push(
+                <ProductCategoryTableComponent
+                    category={"All"}
+                    key={"All"}
+                />
+            );
+            rows.push(
+                <ProductTableComponent
+                    products={filteredProducts}
+                    globalSearchText={globalSearchText}
+                    key="All-table"
+                />
+            );
+        }
+
+    } else {
+        const productsArray = categoryToProductMap.get(selectedCategory) || [];
         const filteredProducts = productsArray.filter(product => {
             if (globalSearchText && product.name.toLowerCase().indexOf(globalSearchText.toLowerCase()) === -1) {
                 return false;
@@ -23,23 +47,22 @@ const ProductCategoriesComponent = ({ products, globalSearchText }) => {
             return true;
         });
 
-        // Only render the category if there are matching products
         if (filteredProducts.length > 0) {
             rows.push(
                 <ProductCategoryTableComponent
-                    category={productCategory}
-                    key={productCategory}
+                    category={selectedCategory}
+                    key={selectedCategory}
                 />
             );
             rows.push(
                 <ProductTableComponent
                     products={filteredProducts}
                     globalSearchText={globalSearchText}
-                    key={`${productCategory}-table`}
+                    key={`${selectedCategory}-table`}
                 />
             );
         }
-    });
+    }
 
     return <>{rows}</>;
 };
