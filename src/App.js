@@ -6,8 +6,7 @@ import SearchBarComponent from './components/SearchBarComponent';
 import ProductCategoriesComponent from './components/ProductCategoriesComponent';
 import { APP_DESCRIPTION, APP_ONE_LINER } from './utils/Constants';
 import ResponsiveHeader from './components/ResponsiveHeaderComponent';
-
-
+import Footer from './components/Footer';
 
 /**
 FilterableProductTable
@@ -20,8 +19,6 @@ import { useState } from 'react';
 
 function FilterableProductTable({ products }) {
   const [globalSearchText, setGlobalSearchText] = useState('');
-
-
 
 
   return (
@@ -45,7 +42,7 @@ function FilterableProductTable({ products }) {
           products={products}
           globalSearchText={globalSearchText} />
       </div >
-
+      <Footer />
 
     </div >
   );
