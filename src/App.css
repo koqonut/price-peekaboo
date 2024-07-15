@@ -230,7 +230,7 @@
 }
 
 .category-list {
-  padding: 1rem;
+  padding: 0.1rem;
 }
 
 .category-image {
@@ -258,7 +258,8 @@ align-items: center;
 .image-boundary {
   margin-top: 50px;
   width: 128px;
-  height: 150px;
+  height: 128px;
+
   /* Adjust height as needed */
   background-image: url('images/logo.png');
   /* Path to your image */
@@ -291,11 +292,11 @@ align-items: center;
 
 .category-list-item.selected button {
   font-weight: bold;
-  color: #ff0000;
+  color: #eb3e3e;
   /* Red color for the selected category */
 }
 
 .category-list-item.selected button:hover {
-  color: #ff0000;
+  color: #eb3e3e;
   /* Maintain the selected color on hover */
 }
