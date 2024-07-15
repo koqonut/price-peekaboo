@@ -78,7 +78,7 @@ const ProductTableComponent = ({ products, globalSearchText }) => {
         <div className="flex flex-col">
             <div className="overflow-x-auto sm:-mx-6 lg:-mx-8">
                 <div className="py-2 inline-block min-w-full sm:px-6 lg:px-8">
-                    <div className="overflow-hidden shadow-md sm:rounded-lg">
+                    <div className="overflow-hidden  sm:rounded-lg">
                         <div className="table-container">
                             <table {...getTableProps()} className="min-w-full divide-y divide-gray-200">
                                 <thead className="bg-gray-50">
