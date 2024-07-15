@@ -2,7 +2,6 @@
   "name": "price-peekaboo",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://koqonut.github.io/price-peekaboo",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
