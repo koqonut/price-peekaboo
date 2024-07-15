@@ -21,7 +21,11 @@ const ProductTableComponent = ({ products, globalSearchText }) => {
             {
                 Header: COL_HEADING_NAME.displayText,
                 accessor: COL_HEADING_NAME.accessor,
-                Filter: DefaultColumnFilter,
+                disableFilters: true,
+                Cell: ({ value }) => (
+                    <div className="whitespace-normal max-w-2xl  break-words">{value}</div>
+                ),
+
             },
             {
                 Header: COL_HEADING_PRICE.displayText,
