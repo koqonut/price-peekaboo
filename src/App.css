@@ -157,3 +157,43 @@
     /* Equivalent to lg:text-lg */
   }
 }
+
+/* src/App.css */
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.header {
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.content {
+  display: flex;
+  flex-grow: 1;
+  overflow: hidden;
+}
+
+.left-panel {
+  width: 20%;
+  background-color: #f0f0f0;
+  /* Adjust the width and background color as needed */
+  padding: 1rem;
+}
+
+.right-panel {
+  width: 80%;
+  padding: 1rem;
+  overflow-y: auto;
+}
+
+.footer {
+  flex-shrink: 0;
+  background-color: #282c34;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
