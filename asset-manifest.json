@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/price-peekaboo/static/css/main.3305cdf5.css",
-    "main.js": "/price-peekaboo/static/js/main.6948c84f.js",
-    "static/js/453.ff0e9376.chunk.js": "/price-peekaboo/static/js/453.ff0e9376.chunk.js",
-    "static/media/header_rgb.png": "/price-peekaboo/static/media/header_rgb.03406026bd0139c4dab8.png",
-    "static/media/header_bw.png": "/price-peekaboo/static/media/header_bw.d34dd7a62a901851977e.png",
-    "index.html": "/price-peekaboo/index.html",
-    "main.3305cdf5.css.map": "/price-peekaboo/static/css/main.3305cdf5.css.map",
-    "main.6948c84f.js.map": "/price-peekaboo/static/js/main.6948c84f.js.map",
-    "453.ff0e9376.chunk.js.map": "/price-peekaboo/static/js/453.ff0e9376.chunk.js.map"
+    "main.css": "/static/css/main.4a69abf2.css",
+    "main.js": "/static/js/main.282b2419.js",
+    "static/js/453.ff0e9376.chunk.js": "/static/js/453.ff0e9376.chunk.js",
+    "static/media/header_rgb.png": "/static/media/header_rgb.03406026bd0139c4dab8.png",
+    "static/media/header_bw.png": "/static/media/header_bw.d34dd7a62a901851977e.png",
+    "index.html": "/index.html",
+    "main.4a69abf2.css.map": "/static/css/main.4a69abf2.css.map",
+    "main.282b2419.js.map": "/static/js/main.282b2419.js.map",
+    "453.ff0e9376.chunk.js.map": "/static/js/453.ff0e9376.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3305cdf5.css",
-    "static/js/main.6948c84f.js"
+    "static/css/main.4a69abf2.css",
+    "static/js/main.282b2419.js"
   ]
 }
