@@ -67,6 +67,8 @@ data = [
     {"name": "Skyr 750 G", "price": 4.99, "category": "Dairy and Eggs", "store": "Food Basics"},
     {"name": "Butter (No Name) 454 G", "price": 4.99, "category": "Dairy and Eggs", "store": "Shoppers Drug Mart"},
     {"name": "Margarine (No Name) 907 G", "price": 4.99, "category": "Dairy and Eggs", "store": "Loblaws"},
+    {"name": "Chocolate (Kitkat Bar) 90 - 120 G", "price": 2.79, "category": "Dairy and Eggs", "store": "Real Canadian Superstore"},
+    {"name": "Chocolate (Hershey's Bar) 90 - 120 G", "price": 2.99, "category": "Dairy and Eggs", "store": "Shoppers Drug Mart"},
     {"name": "Cheese (Compliments Shredded) 320 G", "price": 3.97, "category": "Dairy and Eggs", "store": "Sobeys"},
     {"name": "Ice Cream (Chapman Premium)", "price": 3.99, "category": "Dairy and Eggs", "store": "Loblaws"},
     {"name": "Ghee (Brar) 800 G", "price": 13.99, "category": "Dairy and Eggs", "store": "Chalo FreshCo"},
@@ -84,7 +86,6 @@ data = [
     {"name": "Rice (Parboiled Nupak) 8 KG", "price": 12.99, "category": "Pantry Staples", "store": "Freshco"},
     {"name": "Peanut Butter (No Name) 1 KG", "price": 4.29, "category": "Vegetables", "store": "No Frills"},
 
-    {"name": "Juice (Tropicana Orange) 2.63 L", "price": 5.99, "category": "Vegetables", "store": "Metro"},
 
     {"name": "Olive Oil (Extra Virgin) 750 ML", "price": 8.98, "category": "Pantry Staples", "store": "Food Basics"},
     {"name": "Ketchup (French) 1 L", "price": 4.49, "category": "Pantry Staples", "store": "Food Basics"},
@@ -121,8 +122,44 @@ data = [
     {"name": "Paper Towel (Bounty 4 Rolls)", "price": 7.99, "category": "Household Supplies", "store": "Real Canadian Superstore"},
     {"name": "Toilet Paper (Royale 30 Pack 2-Ply)", "price": 12.97, "category": "Household Supplies", "store": "Walmart"},
     {"name": "Garbage Bags (Glad Tall 45 L, 30 Bags)", "price": 8.99, "category": "Household Supplies", "store": "No Frills"},
-    {"name": "Hand Soap (Softsoap 1.47 L)", "price": 4.50, "category": "Household Supplies", "store": "No Frills"},
-    {"name": "Toothpaste (Colgate Max Fresh) 100 ml", "price": 0.99, "category": "Household Supplies", "store": "Rexall"},
+    {"name": "Lysol All purpose cleaner 1.2 L", "price": 3.66, "category": "Household Supplies", "store": "Real Canadian Superstore"},
+    {"name": "Dishwasher Detergent (Cascade platinum) 75 pack 1.11 KG", "price": 22.49, "category": "Household Supplies", "store": "Canadian Tire"},
+    {"name": "Dishwasher Detergent (Finish) 105 pack 1.8 KG", "price": 18.87, "category": "Household Supplies", "store": "Walmart"},
+    {"name": "Dishwasher Detergent Liquid (Cascade Advanced Power) 125 fl oz", "price": 42.99, "category": "Household Supplies", "store": "Walmart"},
+    {"name": "Diapers (Pampers) x 64", "price": 24.99, "category": "Household Supplies", "store": "Real Canadian Superstore"},
+
+
+    # Beverages
+    {"name": "Pepsi  6 x 710 ml", "price": 3.27, "category": "Beverages", "store": "Walmart"},
+    {"name": "Coke (Coca Cola) 2L", "price": 1.88, "category": "Beverages", "store": "FreshCo"},
+    {"name": "Ginger Ale 6 x 710 ml", "price": 3.27, "category": "Beverages", "store": "Walmart"},
+
+    {"name": "Juice (Tropicana Orange) 2.63 L", "price": 5.99, "category": "Beverages", "store": "Metro"},
+    {"name": "Juice (Simply Orange) 1.54 L", "price": 3.27, "category": "Beverages", "store": "Walmart"},
+    {"name": "Water (PC) 24 x 500 ml", "price": 2.49, "category": "Beverages", "store": "Fortinos"},
+    {"name": "Tetley Tea bags (Green, Chai, Earl Grey) 24 x 48 G", "price": 3.97, "category": "Beverages", "store": "Walmart"},
+    {"name": "Coffee ground (Folgers Classic Roast) 230 G", "price": 5.47, "category": "Beverages", "store": "Walmart"},
+    {"name": "Iced Tea (Pure Leaf) 1.75 L", "price": 3.99, "category": "Beverages", "store": "Food Basics"},
+    {"name": "Tea (Twinnings) 50", "price": 6.99, "category": "Beverages", "store": "No Frills"},
+    {"name": "Coffee Pods (Tassimo Maxwell House) 16", "price": 6.99, "category": "Beverages", "store": "No Frills"},
+    {"name": "Coffee Pods (Maxwell House) 30", "price": 12.99, "category": "Beverages", "store": "FreshCo"},
+    {"name": "Coffee Ground (Nabob) 930 G", "price": 12.99, "category": "Beverages", "store": "FreshCo"},
+
+    {"name": "Coffee Ground (Tim Hortons) 930 G", "price": 17.99, "category": "Beverages", "store": "Walmart"},
+    {"name": "Tetley Tea bags (Lemon ginger, Camomile lemon) 20 x 36 G", "price": 3.97, "category": "Beverages", "store": "Walmart"},
+    {"name": "Almond Milk (Silk) 946 ml", "price": 2.99, "category": "Beverages", "store": "Fortinos"},
+
+
+    # personal care
+    {"name": "Hand Soap (Softsoap 1.47 L)", "price": 4.50, "category": "Personal Care", "store": "No Frills"},
+    {"name": "Toothpaste (Colgate Max Fresh) 100 ml", "price": 0.99, "category": "Personal Care", "store": "Rexall"},
+    {"name": "Conditioner (Dove) 355 ml", "price": 3.99, "category": "Personal Care", "store": "Shoppers Drug Mart"},
+    {"name": "Conditioner (Head & Shoulders) 325 ml", "price": 4.77, "category": "Personal Care", "store": "Walmart"},
+    {"name": "Conditioner (Pantene Pro-V) 308 ml", "price": 3.92, "category": "Personal Care", "store": "Walmart"},
+    {"name": "Shampoo (Tresemme) 1.15 L", "price": 8.99, "category": "Personal Care", "store": "Shoppers Drug Mart"},
+    {"name": "Shampoo (Head & Shoulders) 370 ml", "price": 4.77, "category": "Personal Care", "store": "Walmart"},
+    {"name": "Deodorant (Axe) 113 g", "price": 2.88, "category": "Personal Care", "store": "Rexall"},
+    {"name": "Deodorant (Old Spice) 45-85 g", "price": 2.88, "category": "Personal Care", "store": "Rexall"},
 
 
 ]
@@ -132,7 +169,7 @@ last_updated_date = "2024-07-14"
 city = "Toronto"
 
 # Define file path (relative path one level up)
-file_path = "src/data/data_july_14.json"
+file_path = "src/data/data_july_15.json"
 
 # Check if file_path is an absolute path, if not, make it absolute
 if not os.path.isabs(file_path):

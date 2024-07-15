@@ -4,7 +4,7 @@ const SearchBarComponent = ({ filterText, onGlobalSearchText }) => {
     return (
         <form className="container mx-auto p-1  max-w-[61%] text-center">
             <div className="mb-4">
-                <h2 className="text-2l font-semibold mb-2">Search</h2>
+                <h2 className="text-2xl font-semibold mb-2">Search</h2>
                 <input
                     type="text"
                     value={filterText}
