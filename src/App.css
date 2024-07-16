@@ -50,14 +50,6 @@
   background-color: rgba(255, 255, 255, 0.1);
 }
 
-/* Mobile header specific styles */
-.mobile-header {
-  background-image: url('images/header_bw.png');
-  background-size: cover;
-  background-position: center;
-  height: 25vh;
-  /* 30% of the viewport height */
-}
 
 /* Laptop header specific styles */
 .laptop-header {
